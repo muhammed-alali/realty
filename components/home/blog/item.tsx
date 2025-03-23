@@ -5,7 +5,10 @@ import Image from "next/image";
 export default function İtem({ newData }: { newData: blogProps }) {
   return (
     <>
-      <div className="xs:w-full md:w-[340px] lg:w-[310px]  xl:w-[410px] group md:mx-auto mb-6">
+      <div
+        key={newData.id}
+        className="xs:w-full md:w-[340px] lg:w-[310px]  xl:w-[410px] group md:mx-auto mb-6"
+      >
         <div className="relative  overflow-hidden rounded-2xl">
           <Image
             className="rounded-2xl group-hover:scale-[1.1] duration-[0.9s]"
