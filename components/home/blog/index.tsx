@@ -38,7 +38,7 @@ export default function Blog() {
         </div>
         <div className="md:container xs:mx-4 mx-auto grid xs:grid-cols-1 md:grid-cols-2  lg:grid-cols-3 ">
           {data.map((item) => {
-            return <İtem newData={item} />;
+            return <İtem newData={item} key={item.id} />;
           })}
         </div>
       </div>
