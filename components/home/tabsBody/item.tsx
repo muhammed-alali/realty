@@ -20,7 +20,6 @@ export default function İtem() {
       slug: "apartment",
       array: [
         {
-          id: 1,
           imgName: "photo/house-1.jpg",
           title: "Casa Lomas de Machalí Machas",
           locationHome: "145 Brooklyn Ave, Califonia, New York",
@@ -31,7 +30,6 @@ export default function İtem() {
           price: "7250,00",
         },
         {
-          id: 2,
           imgName: "photo/house-2.jpg",
           title: "Modern Apartment in LA",
           locationHome: "123 Main St, Los Angeles, CA",
@@ -48,7 +46,6 @@ export default function İtem() {
       slug: "villa",
       array: [
         {
-          id: 1,
           imgName: "photo/house-2.jpg",
           title: "Modern Apartment in LA",
           locationHome: "123 Main St, Los Angeles, CA",
@@ -59,7 +56,6 @@ export default function İtem() {
           price: 5500.0,
         },
         {
-          id: 2,
           imgName: "photo/house-3.jpg",
           title: "Luxury Villa in Miami",
           locationHome: "200 Ocean Drive, Miami, FL",
@@ -70,7 +66,6 @@ export default function İtem() {
           price: 25000.0,
         },
         {
-          id: 2,
           imgName: "photo/house-1.jpg",
           title: "Luxury Villa in Miami",
           locationHome: "200 Ocean Drive, Miami, FL",
@@ -87,7 +82,6 @@ export default function İtem() {
       slug: "studio",
       array: [
         {
-          id: 1,
           imgName: "photo/house-4.jpg",
           title: "Casa Lomas de Machalí Machas",
           locationHome: "145 Brooklyn Ave, Califonia, New York",
@@ -104,7 +98,6 @@ export default function İtem() {
       slug: "house",
       array: [
         {
-          id: 1,
           imgName: "photo/house-5.jpg",
           title: "Casa Lomas de Machalí Machas",
           locationHome: "145 Brooklyn Ave, Califonia, New York",
@@ -121,7 +114,6 @@ export default function İtem() {
       slug: "office",
       array: [
         {
-          id: 1,
           imgName: "photo/house-1.jpg",
           title: "Casa Lomas de Machalí Machas",
           locationHome: "145 Brooklyn Ave, Califonia, New York",
@@ -132,7 +124,6 @@ export default function İtem() {
           price: "7250,00",
         },
         {
-          id: 2,
           imgName: "photo/house-6.jpg",
           title: "Casa Lomas de Machalí Machas",
           locationHome: "145 Brooklyn Ave, Califonia, New York",
@@ -177,10 +168,7 @@ export default function İtem() {
             <TabPanel key={slug} value={slug}>
               <div className="grid xs:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                 {array.map((item) => (
-                  <div
-                    key={item.id}
-                    className="bg-white shadow-md group rounded-2xl relative overflow-hidden w-fit "
-                  >
+                  <div className="bg-white shadow-md group rounded-2xl relative overflow-hidden w-fit ">
                     <div className="relative overflow-hidden">
                       <div className="relative after:absolute  after:inset-0 after:bg-gradient-to-b after:from-[rgba(0,0,0,0)69.05%] after:to-black/70 ">
                         <img

@@ -35,7 +35,7 @@ export default function Solutions() {
         </div>
         <div className="md:container md:mx-4 md:w-auto xs:mx-4 lg:mx-auto grid xs:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:gap-5 md:gap-[20px] xl:gap-[30px]">
           {data.map((item: propsData) => {
-            return <İtem nweData={item} />;
+            return <İtem nweData={item} key={item.id} />;
           })}
         </div>
       </div>
