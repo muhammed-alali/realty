@@ -41,6 +41,7 @@ export default async function Hero() {
                         </p>
                         <div className=" md:mt-6 ">
                           <ButtonCom
+                            href="contacts"
                             hight="3.5rem"
                             paddingX="2.75rem"
                             title="Contact Us"

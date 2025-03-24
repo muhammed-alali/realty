@@ -6,25 +6,20 @@ export const İletişimİtem = [
   {
     id: 1,
     icon: <IoLocationSharp />,
-    title: "Adresimiz",
-    desc: "Fikirtepe Mah. Bahtlı Sok. Pırlanta Sitesi A Blok No:46 D:154 Göztepe/Kadıköy/İSTANBUL",
+    title: "Location",
+    desc: "101 E 129th St, East Chicago, IN 46312, US",
   },
   {
     id: 2,
     icon: <BsTelephoneFill />,
-    title: "Sabit",
-    desc: "+90 216 660 02 92",
+    title: "Telefon",
+    desc: "1-333-345-6868",
   },
-  {
-    id: 3,
-    icon: <BsTelephoneFill />,
-    title: "Cep Numarası",
-    desc: "+90 216 660 02 92",
-  },
+
   {
     id: 4,
     icon: <SiMinutemailer />,
-    title: "Mail Us",
-    desc: "info@adenetim.com.tr",
+    title: "E Mail",
+    desc: "themesflat@gmail.com",
   },
 ];

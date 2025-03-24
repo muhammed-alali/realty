@@ -75,7 +75,7 @@ function NavList() {
     <List className="mt-4 mb-6 p-0 lg:mt-0 lg:mb-0 lg:flex-row lg:p-1 lg:gap-[2.5rem] xs:gap-4 md:gap-4">
       <Typography
         as="a"
-        href="#"
+        href="/"
         className="font-semibold text-[1rem] text-Title w-fit"
       >
         <ListItem className="flex items-center gap-2 my-2 py-1 pr-4 hover:bg-white  relative  after:duration-300 hover:after:w-full after:bottom-0 after:left-0 px-0 after:w-0 after:bg-SiteColor  after:absolute  after:h-[2.3px]  ">
@@ -84,7 +84,7 @@ function NavList() {
       </Typography>
       <Typography
         as="a"
-        href="#"
+        href="about"
         className="font-semibold text-[1rem] text-Title"
       >
         <ListItem className="flex items-center gap-2 my-2 py-1 pr-4 hover:bg-white  relative  after:duration-300 hover:after:w-full after:bottom-0 after:left-0 px-0 after:w-0 after:bg-SiteColor  after:absolute  after:h-[2.3px]  ">
@@ -93,7 +93,7 @@ function NavList() {
       </Typography>
       <Typography
         as="a"
-        href="#"
+        href="blogs"
         className="font-semibold text-[1rem] text-Title"
       >
         <ListItem className="flex items-center gap-2 my-2 py-1 pr-4 hover:bg-white  relative  after:duration-300 hover:after:w-full after:bottom-0 after:left-0 px-0 after:w-0 after:bg-SiteColor  after:absolute  after:h-[2.3px]  ">
@@ -102,7 +102,7 @@ function NavList() {
       </Typography>
       <Typography
         as="a"
-        href="#"
+        href="services"
         className="font-semibold text-[1rem] text-Title"
       >
         <ListItem className="flex items-center gap-2 my-2 py-1 pr-4 hover:bg-white  relative  after:duration-300 hover:after:w-full after:bottom-0 after:left-0 px-0 after:w-0 after:bg-SiteColor  after:absolute  after:h-[2.3px]  ">
@@ -119,7 +119,12 @@ function NavList() {
         </ListItem>
       </Typography>
       <div className="lg:hidden xs:block">
-        <ButtonCom hight="3.5rem" paddingX="2.75rem" title="Contact Us" />
+        <ButtonCom
+          href="contacts"
+          hight="3.5rem"
+          paddingX="2.75rem"
+          title="Contact Us"
+        />
       </div>{" "}
       {/* <NavListMenu /> */}
     </List>
@@ -144,7 +149,12 @@ export function Header() {
           <NavList />
         </div>
         <div className="hidden lg:block">
-          <ButtonCom hight="3.5rem" paddingX="2.75rem" title="Contact Us" />
+          <ButtonCom
+            href="contacts"
+            hight="3.5rem"
+            paddingX="2.75rem"
+            title="Contact Us"
+          />
         </div>{" "}
         <IconButton
           variant="text"
