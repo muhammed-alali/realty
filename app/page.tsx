@@ -6,6 +6,7 @@ import TabsBodyCom from "@/components/home/tabsBody";
 import HomeLocations from "@/components/home/homelocation";
 import Solutions from "@/components/home/solutions";
 import Blog from "@/components/home/blog";
+import { FloatingWhatsApp } from "react-floating-whatsapp";
 
 export default function Home() {
   return (
@@ -16,6 +17,13 @@ export default function Home() {
       <HomeLocations />
       <Solutions />
       <Blog />
+      <FloatingWhatsApp
+        phoneNumber="05368192660"
+        accountName="Home Lengo"
+        statusMessage="Connected"
+        chatMessage="Hello, I have a question about the house."
+        avatar="/photo/favicon.ico"
+      />
     </>
   );
 }
