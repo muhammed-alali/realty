@@ -18,11 +18,12 @@ export default function Home() {
       <Solutions />
       <Blog />
       <FloatingWhatsApp
-        phoneNumber="05368192660"
+        phoneNumber="+905368192660"
         accountName="Home Lengo"
         statusMessage="Connected"
-        chatMessage="Hello, I have a question about the house."
+        chatMessage="مرحباً يسرّنا خدمتكم فيما يخص بيع، شراء أو تأجير العقارات. يرجى تزويدنا بتفاصيل طلبكم وسيتم التواصل معكم في أقرب وقت ممكن من قبل أحد مستشارينا العقاريين"
         avatar="/photo/favicon.ico"
+        chatboxHeight={360}
       />
     </>
   );

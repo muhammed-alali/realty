@@ -3,6 +3,12 @@ import { İletişimİtem } from "./item";
 import Map from "./map/page";
 import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa6";
 import Form from "./form";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Contacts",
+  description: "",
+};
 
 export default function İletişim() {
   return (
