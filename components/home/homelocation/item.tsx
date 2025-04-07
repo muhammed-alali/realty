@@ -92,13 +92,13 @@ export default function İtem() {
                         <div>
                           {" "}
                           <p className="text-Title">{item.desc}</p>{" "}
-                          <h1 className="text-Title mt-1 text-[18px] font-semibold hover:text-SiteColor duration-300">
+                          <h1 className="text-Title mt-1 text-[18px] cursor-pointer font-semibold hover:text-SiteColor duration-300">
                             {item.title}
                           </h1>
                         </div>
                         <div className="">
                           {" "}
-                          <div className="m-auto border border-[#e4e4e4] group-hover:bg-SiteColor duration-300  w-[44px] h-[44px] rounded-full content-center ">
+                          <div className="m-auto border cursor-pointer border-[#e4e4e4] group-hover:bg-SiteColor duration-300  w-[44px] h-[44px] rounded-full content-center ">
                             <GoArrowRight className="text-Title text-[25px] mx-auto group-hover:text-white duration-300" />
                           </div>
                         </div>
