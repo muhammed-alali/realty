@@ -202,12 +202,12 @@ export default function İtem() {
                       </div>
                     </div>
                     <div className="p-5">
-                      <p className="text-white xs:top-[220px]  xs:w-[260px] text-sm flex items-center gap-2 absolute top-[240px]">
+                      <p className="text-white xs:top-[220px] line-clamp-2  xs:w-[260px] text-sm flex items-center gap-2 absolute top-[240px]">
                         <IoLocationOutline className="text-[20px]" />{" "}
                         {item.locationHome}
                       </p>
                       <div className="mb-6 pb-6 border-b border-[#e4e4e4]">
-                        <h3 className="font-bold text-[18px] leading-[25.2px] text-Title hover:text-SiteColor duration-300 cursor-pointer">
+                        <h3 className=" line-clamp-2 font-bold text-[18px] leading-[25.2px] text-Title hover:text-SiteColor duration-300 cursor-pointer">
                           {item.title}
                         </h3>
                         <div className="flex justify-between my-2 text-sm text-gray-600 md:pr-[30%]">

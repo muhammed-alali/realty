@@ -91,8 +91,10 @@ export default function İtem() {
                         {" "}
                         <div>
                           {" "}
-                          <p className="text-Title">{item.desc}</p>{" "}
-                          <h1 className="text-Title mt-1 text-[18px] cursor-pointer font-semibold hover:text-SiteColor duration-300">
+                          <p className="text-Title line-clamp-1">
+                            {item.desc}
+                          </p>{" "}
+                          <h1 className="text-Title mt-1 line-clamp-2 text-[18px] cursor-pointer font-semibold hover:text-SiteColor duration-300">
                             {item.title}
                           </h1>
                         </div>

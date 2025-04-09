@@ -10,7 +10,7 @@ export async function GET() {
     "/properties",
     "/services",
     "/blog",
-    "/contacts",
+    "/contact",
     // Dynamically fetched routes can go here
   ];
 

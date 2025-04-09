@@ -38,13 +38,13 @@ export default function About() {
                   {item.desc}
                 </p>
                 <div>
-                  <div className="w-[80%]">
+                  <div className="xs:w-full w-[80%]">
                     <div className="xs:block flex gap-7 mb-11">
-                      <div className="xs:w-fit xs:mb-4 md:m-auto bg-[rgb(21,99,223,36%)] rounded-full p-5 relative  after:border-[2px] after:border-dashed  after:border-blue-500/65  after:top-0 after:left-0 after:right-0 after:bottom-0 after:absolute after:rounded-full rotateBorder hover:bg-SiteColor hover:after:!border-none hover:rotate-x-180 duration-300 ">
+                      <div className="xs:w-fit xs:mb-4 xs:mx-auto md:m-auto bg-[rgb(21,99,223,36%)] rounded-full p-5 relative  after:border-[2px] after:border-dashed  after:border-blue-500/65  after:top-0 after:left-0 after:right-0 after:bottom-0 after:absolute after:rounded-full rotateBorder hover:bg-SiteColor hover:after:!border-none hover:rotate-x-180 duration-300 ">
                         <FaMedal className="w-[40px] h-[40px] text-[40px] text-white " />
                       </div>
-                      <div className="">
-                        <h1 className="mb-3 text-[20px] text-Title font-bold leading-[26px]">
+                      <div className="xs:text-center">
+                        <h1 className=" mb-3 text-[20px] text-Title font-bold leading-[26px]">
                           Proven Expertise
                         </h1>
                         <p className="text-[16px] text-Desc leading-[30px]">
@@ -55,10 +55,10 @@ export default function About() {
                       </div>
                     </div>
                     <div className="xs:block  flex gap-7 mb-11">
-                      <div className="xs:w-fit xs:mb-4 md:m-auto bg-[rgb(21,99,223,36%)] rounded-full p-5 relative  after:border-[2px] after:border-dashed  after:border-blue-500/65  after:top-0 after:left-0 after:right-0 after:bottom-0 after:absolute after:rounded-full rotateBorder hover:bg-SiteColor hover:after:!border-none hover:rotate-x-180 duration-300 ">
+                      <div className="xs:mx-auto xs:w-fit xs:mb-4 md:m-auto bg-[rgb(21,99,223,36%)] rounded-full p-5 relative  after:border-[2px] after:border-dashed  after:border-blue-500/65  after:top-0 after:left-0 after:right-0 after:bottom-0 after:absolute after:rounded-full rotateBorder hover:bg-SiteColor hover:after:!border-none hover:rotate-x-180 duration-300 ">
                         <FaHandshake className="w-[40px] h-[40px] text-[40px] text-white " />
                       </div>
-                      <div className="">
+                      <div className="xs:text-center">
                         <h1 className="mb-3 text-[20px] text-Title font-bold leading-[26px]">
                           Transparent Partnerships
                         </h1>
@@ -71,12 +71,14 @@ export default function About() {
                     </div>
                   </div>
                 </div>
-                <ButtonCom
-                  href="about"
-                  hight="3.5rem"
-                  paddingX="2.75rem"
-                  title={"More"}
-                />
+                <div className="xs:left-[50%] xs:transform xs:translate-x-[-50%] xs:w-fit xs:relative">
+                  <ButtonCom
+                    href="about"
+                    hight="3.5rem"
+                    paddingX="2.75rem"
+                    title={"More"}
+                  />
+                </div>
               </div>
             </div>
           </>

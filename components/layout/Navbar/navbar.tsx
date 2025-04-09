@@ -78,7 +78,7 @@ function NavList() {
         href="/"
         className="font-semibold text-[1rem] text-Title w-fit"
       >
-        <ListItem className="active:bg-white hover:active:bg-white focus:bg-white  flex items-center gap-2 my-2 py-1 pr-4 hover:bg-white  relative  after:duration-300 hover:after:w-full after:bottom-0 after:left-0 px-0 after:w-0 after:bg-SiteColor  after:absolute  after:h-[2.3px]  ">
+        <ListItem className="active:bg-white hover:active:bg-white focus:bg-white  flex items-center gap-2 my-2 xs:py-0 py-1 pr-4 hover:bg-white  relative  after:duration-300 hover:after:w-full after:bottom-0 after:left-0 px-0 after:w-0 after:bg-SiteColor  after:absolute  after:h-[2.3px]  ">
           Home
         </ListItem>
       </Typography>
@@ -87,7 +87,7 @@ function NavList() {
         href="/about"
         className="font-semibold text-[1rem] text-Title"
       >
-        <ListItem className="active:bg-white hover:active:bg-white focus:bg-white flex items-center gap-2 my-2 py-1 pr-4 hover:bg-white  relative  after:duration-300 hover:after:w-full after:bottom-0 after:left-0 px-0 after:w-0 after:bg-SiteColor  after:absolute  after:h-[2.3px]  ">
+        <ListItem className="active:bg-white hover:active:bg-white focus:bg-white flex items-center gap-2 my-2 xs:py-0 py-1  pr-4 hover:bg-white  relative  after:duration-300 hover:after:w-full after:bottom-0 after:left-0 px-0 after:w-0 after:bg-SiteColor  after:absolute  after:h-[2.3px]  ">
           About
         </ListItem>
       </Typography>
@@ -96,7 +96,7 @@ function NavList() {
         href="/properties"
         className="font-semibold text-[1rem] text-Title"
       >
-        <ListItem className="active:bg-white hover:active:bg-white focus:bg-white  flex items-center gap-2 my-2 py-1 pr-4 hover:bg-white  relative  after:duration-300 hover:after:w-full after:bottom-0 after:left-0 px-0 after:w-0 after:bg-SiteColor  after:absolute  after:h-[2.3px]  ">
+        <ListItem className="active:bg-white hover:active:bg-white focus:bg-white  flex items-center gap-2 my-2 xs:py-0 py-1 pr-4 hover:bg-white  relative  after:duration-300 hover:after:w-full after:bottom-0 after:left-0 px-0 after:w-0 after:bg-SiteColor  after:absolute  after:h-[2.3px]  ">
           Properties
         </ListItem>
       </Typography>
@@ -105,7 +105,7 @@ function NavList() {
         href="/services"
         className="font-semibold text-[1rem] text-Title"
       >
-        <ListItem className="active:bg-white hover:active:bg-white focus:bg-white  flex items-center gap-2 my-2 py-1 pr-4 hover:bg-white  relative  after:duration-300 hover:after:w-full after:bottom-0 after:left-0 px-0 after:w-0 after:bg-SiteColor  after:absolute  after:h-[2.3px]  ">
+        <ListItem className="active:bg-white hover:active:bg-white focus:bg-white  flex items-center gap-2 my-2 xs:py-0 py-1 pr-4 hover:bg-white  relative  after:duration-300 hover:after:w-full after:bottom-0 after:left-0 px-0 after:w-0 after:bg-SiteColor  after:absolute  after:h-[2.3px]  ">
           Services
         </ListItem>
       </Typography>
@@ -114,13 +114,13 @@ function NavList() {
         href="/blog"
         className="font-semibold text-[1rem] text-Title"
       >
-        <ListItem className="active:bg-white hover:active:bg-white focus:bg-white  flex items-center gap-2 my-2 py-1 pr-4 hover:bg-white  relative  after:duration-300 hover:after:w-full after:bottom-0 after:left-0 px-0 after:w-0 after:bg-SiteColor  after:absolute  after:h-[2.3px]  ">
+        <ListItem className="active:bg-white hover:active:bg-white focus:bg-white  flex items-center gap-2 my-2 xs:py-0 py-1 pr-4 hover:bg-white  relative  after:duration-300 hover:after:w-full after:bottom-0 after:left-0 px-0 after:w-0 after:bg-SiteColor  after:absolute  after:h-[2.3px]  ">
           Blog
         </ListItem>
       </Typography>
       <div className="lg:hidden xs:block">
         <ButtonCom
-          href="contacts"
+          href="contact"
           hight="3.5rem"
           paddingX="2.75rem"
           title="Contact Us"
@@ -150,7 +150,7 @@ export function Header() {
         </div>
         <div className="hidden lg:block">
           <ButtonCom
-            href="contacts"
+            href="contact"
             hight="3.5rem"
             paddingX="2.75rem"
             title="Contact Us"

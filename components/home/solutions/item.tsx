@@ -8,7 +8,7 @@ export default function İtem({ nweData }: { nweData: propsData }) {
     <>
       <div
         key={nweData.id}
-        className="bg-white border border-[#e4e4e4] hover:border-none rounded-2xl py-[50px] px-[30px] group hover:shadow-solutionsShadow duration-300"
+        className="xs:mb-4 bg-white border border-[#e4e4e4] hover:border-none rounded-2xl py-[50px] px-[30px] group hover:shadow-solutionsShadow duration-300"
       >
         <div>
           <Image

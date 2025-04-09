@@ -36,11 +36,11 @@ export default function İtem({ newData }: { newData: blogProps }) {
             </span>
           </div>
           <Link href={"/blog/" + newData.id}>
-            <h1 className="text-Title xs:text-[20px] text-[24px] group-hover:text-SiteColor duration-300 font-semibold mt-[10px] leading-[30px]">
+            <h1 className="text-Title line-clamp-2 xs:text-[20px] text-[24px] group-hover:text-SiteColor duration-300 font-semibold mt-[10px] leading-[30px]">
               {newData.title}
             </h1>
           </Link>
-          <p className="text-[16px] text-Desc mt-3 leading-[1.6em]">
+          <p className="text-[16px] text-Desc mt-3 line-clamp-4 leading-[1.6em]">
             {newData.desc}
           </p>
         </div>

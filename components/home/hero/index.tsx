@@ -32,8 +32,8 @@ export default async function Hero() {
                 <SwiperSlide className="" key={item.id}>
                   <div className="">
                     <div className=" top-[34%]  absolute text-white  w-full  ">
-                      <div className="mt-[-35px] text-center">
-                        <h1 className=" xs:text-[23px] md:!text-[50px] lg:!text-[80px] leading-[88px] font-extrabold">
+                      <div className="xs:mt-[-28px] mt-[-35px] text-center">
+                        <h1 className=" xs:text-[23px] xs:leading-[58px] md:!text-[50px] lg:!text-[80px] leading-[88px] font-extrabold">
                           {item.title}
                         </h1>
                         <p className="xs:leading-[1.5] md:leading-[2] xs:w-[80%] w-[55%] mx-auto lg:leading-[1.8em] xs:mb-8 xs:text-sm line-clamp-3 text-[17px]  font-normal ">
@@ -41,7 +41,7 @@ export default async function Hero() {
                         </p>
                         <div className=" md:mt-6 ">
                           <ButtonCom
-                            href="contacts"
+                            href="contact"
                             hight="3.5rem"
                             paddingX="2.75rem"
                             title="Contact Us"

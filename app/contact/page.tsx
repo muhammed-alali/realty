@@ -6,15 +6,15 @@ import Form from "./form";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Contacts",
+  title: "Contact",
   description: "",
 };
 
 export default function İletişim() {
   return (
     <div className="py-[100px] ">
-      <div className="grid grid-cols-12 gap-12 xs:mx-4 md:container  md:max-w-[734px]  lg:max-w-[990px]  xl:max-w-[1406px] mx-auto">
-        <div className="xs:w-full xs:col-span-7 md:col-span-12 mx-auto lg:col-span-4 bg-[rgb(171_199_243/80%)] rounded-lg h-fit py-[40px] xs:pl-[25px] pl-[40px] pr-[20px]">
+      <div className="grid grid-cols-12 md:gap-12 xs:mx-4 md:container   md:mx-auto">
+        <div className="xs:mb-12 col-span-12 md:col-span-12 md:mx-auto md:w-[70%] xs:w-fit lg:w-fit lg:col-span-4 bg-[rgb(171_199_243/80%)] rounded-lg h-fit py-[40px] xs:pl-[15px] xs:pr-[10px] pl-[40px] pr-[20px]">
           <h2 className="mb-5 text-[25px] font-medium text-Title">
             Get In Touch
           </h2>
@@ -45,7 +45,9 @@ export default function İletişim() {
             })}
           </div>
           <div className="flex justify-between pt-[31px] border-t border-[#1563df38]">
-            <h1 className="font-medium text-[17px]">Connect With Us :</h1>
+            <h1 className="font-medium xs:text-[15px] xs:my-auto text-[17px]">
+              Connect With Us :
+            </h1>
             <div className="flex gap-2">
               {" "}
               <div className="w-[34px] rounded-full h-[34px] bg-SiteColor hover:bg-Title duration-300">
@@ -60,7 +62,7 @@ export default function İletişim() {
             </div>
           </div>
         </div>
-        <div className="  col-span-7 md:col-span-12 lg:col-span-7">
+        <div className="col-span-12 md:col-span-12 lg:col-span-7">
           <div>
             <h1 className="mb-5 text-[25px] font-medium text-Title">
               Have Questions? Let’s Talk!
