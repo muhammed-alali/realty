@@ -1,4 +1,6 @@
-export default function PropertiesDetay() {
+import Shear from "@/components/shear";
+
+export default function PropertiesDetay({ slug }: { slug: number }) {
   return (
     <>
       <div className="xs:mx-4 md:container  mx-auto py-[100px]">
@@ -7,7 +9,13 @@ export default function PropertiesDetay() {
         <p className="text-gray-600 mb-4">
           146 Brooklyn Ave, California, New York
         </p>
-
+        <div className="mb-4">
+          <Shear
+            title={"Lakeview Haven, Lake Tahoe"}
+            subdirectory="properties"
+            slug={slug}
+          />
+        </div>
         {/* Image Gallery */}
         <div className="flex flex-wrap xl:flex-nowrap md:gap-3 xl:gap-0 xl:space-x-4 mb-4">
           <img

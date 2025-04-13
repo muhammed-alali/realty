@@ -8,7 +8,7 @@ export default async function Detay({
   const { id } = await params;
   return (
     <>
-      <ServicesDetay />
+      <ServicesDetay slug={id} />
     </>
   );
 }

@@ -1,7 +1,8 @@
 import Image from "next/image";
 import ServicesCategoriesDetay from "./categoris-detay";
+import Shear from "@/components/shear";
 
-export default function ServicesDetay() {
+export default function ServicesDetay({ slug }: { slug: number }) {
   return (
     <>
       <section className="md:container xs:mx-4 mx-auto py-[100px]">
@@ -38,6 +39,11 @@ export default function ServicesDetay() {
                 fringilla, mattis ligula consectetur, ultrices Maecenas
               </p>
             </div>
+            <Shear
+              title={"Home buying 101 Essential best Tips."}
+              subdirectory="services"
+              slug={slug}
+            />
           </div>
           <div className="col-span-12 lg:col-span-4">
             <div className="xs:w-full md:w-[70%] lg:w-full xl:w-[80%] xs:px-6 border border-[rgb(231,232,233)] rounded-[12px] p-8  mx-auto lg:mx-0 xl:mx-auto">

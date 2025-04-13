@@ -1,3 +1,4 @@
+import Shear from "@/components/shear";
 import Head from "next/head";
 import Image from "next/image";
 
@@ -47,6 +48,7 @@ export default function AboutCom() {
                 obcaecati nam expedita iure tempore sint, neque quae cumque
                 deleniti eos. Hic consectetur aliquid cum quo eius.
               </p>
+              <Shear title={"About"} subdirectory="about" />
             </div>
             <div className="relative">
               <Image

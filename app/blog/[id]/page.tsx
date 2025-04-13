@@ -1,10 +1,7 @@
 import BlogDetay from "@/components/externalPages/detayils/blogDetay";
 
-export default async function Detay({
-  params,
-}: {
-  params: Promise<{ id: number }>;
-}) {
+export default async function Detay({ params }: { params: Promise<any> }) {
   const { id } = await params;
-  return <BlogDetay />;
+
+  return <BlogDetay slug={id} />;
 }
