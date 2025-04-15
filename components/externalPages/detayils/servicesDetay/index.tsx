@@ -46,7 +46,7 @@ export default function ServicesDetay({ slug }: { slug: number }) {
             />
           </div>
           <div className="col-span-12 lg:col-span-4">
-            <div className="xs:w-full md:w-[70%] lg:w-full xl:w-[80%] xs:px-6 border border-[rgb(231,232,233)] rounded-[12px] p-8  mx-auto lg:mx-0 xl:mx-auto">
+            <div className="xs:w-full md:w-[70%] lg:w-full xl:w-[80%] xs:px-6 border border-BorderColor rounded-[12px] p-8  mx-auto lg:mx-0 xl:mx-auto">
               <div className="w-full max-w-md  ">
                 <ServicesCategoriesDetay />
               </div>

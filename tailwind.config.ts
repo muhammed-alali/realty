@@ -22,6 +22,7 @@ const config: Config = withMT({
         SiteColor: "#1563df",
         Title: "#161e2d",
         Desc: "#5c6368",
+        BorderColor: "[rgb(231,232,233)]",
       },
       filters: {
         filter:

@@ -11,7 +11,7 @@ export default function BlogCategoriesDetay() {
 
   return (
     <>
-      <div className="mb-8 rounded-lg bg-white border-b border-[rgb(231,232,233)] pb-6">
+      <div className="mb-8 rounded-lg bg-white border-b border-BorderColor pb-6">
         <h2 className="text-xl font-semibold mb-4 ">Categories</h2>
         {categories.map((category, index) => (
           <Link href={`/`} key={category.id}>

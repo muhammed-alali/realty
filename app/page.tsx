@@ -23,7 +23,8 @@ export default function Home() {
         statusMessage="Connected"
         chatMessage="مرحباً يسرّنا خدمتكم فيما يخص بيع، شراء أو تأجير العقارات. يرجى تزويدنا بتفاصيل طلبكم وسيتم التواصل معكم في أقرب وقت ممكن."
         avatar="/photo/favicon.ico"
-        chatboxHeight={370}
+        chatboxHeight={380}
+        chatboxClassName="!max-w-[calc(100%-10px)]"
       />
     </>
   );
