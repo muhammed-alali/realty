@@ -44,7 +44,7 @@ export default function PropertiesCategoriesDetay() {
         </h1>
         <div className="space-y-4 ">
           {properties.map((property) => (
-            <div className=" md:px-4 lg:pr-0 xl:pr-4">
+            <div key={property.id} className=" md:px-4 lg:pr-0 xl:pr-4">
               {" "}
               <div
                 key={property.id}
