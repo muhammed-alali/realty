@@ -16,7 +16,7 @@ export default function About() {
               <div className="mx-auto rounded-2xl relative">
                 <Image
                   src={item.imgName}
-                  alt=""
+                  alt={item.title}
                   width={523}
                   height={649}
                 ></Image>

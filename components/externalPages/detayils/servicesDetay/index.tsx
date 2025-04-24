@@ -12,7 +12,7 @@ export default function ServicesDetay({ slug }: { slug: number }) {
               <Image
                 loading="lazy"
                 src={"/photo/hero2.jpg"}
-                alt=""
+                alt="img"
                 fill
                 className="rounded-xl"
               />

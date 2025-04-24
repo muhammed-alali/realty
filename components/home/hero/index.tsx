@@ -52,7 +52,7 @@ export default async function Hero() {
                     <Image
                       className=" xs:h-[400px] lg:!h-[670px] h-full object-cover "
                       src={item.url}
-                      alt=""
+                      alt={item.title}
                       width={2000}
                       height={100}
                     />

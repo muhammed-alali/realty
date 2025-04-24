@@ -53,7 +53,7 @@ export default function PropertiesGallery() {
                   <Image
                     className="rounded xs:!w-full xs:!h-[270px]"
                     src={item.url}
-                    alt=""
+                    alt="img"
                     width={300}
                     height={280}
                   />

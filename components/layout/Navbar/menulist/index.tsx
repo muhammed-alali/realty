@@ -2,6 +2,7 @@
 
 import React from "react";
 import { MenuItem, Typography } from "@material-tailwind/react";
+import Link from "next/link";
 
 const navListMenuItems = [
   { title: "Products", description: "Find the perfect" },
@@ -18,7 +19,7 @@ export default function MenuListComponent({
     <div className={`hidden lg:block ${isMenuOpen ? "" : "hidden"}`}>
       <ul className="grid grid-cols-3 gap-y-2 outline-none outline-0">
         {navListMenuItems.map(({ title, description }, key) => (
-          <a href="#" key={key}>
+          <Link href="/" key={key}>
             <MenuItem className="flex items-center gap-3 rounded-lg">
               <div>
                 <Typography
@@ -36,7 +37,7 @@ export default function MenuListComponent({
                 </Typography>
               </div>
             </MenuItem>
-          </a>
+          </Link>
         ))}
       </ul>
     </div>

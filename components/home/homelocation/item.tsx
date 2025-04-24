@@ -1,3 +1,4 @@
+"use client";
 import Image from "next/image";
 import { title } from "process";
 import { GoArrowRight } from "react-icons/go";
@@ -83,7 +84,7 @@ export default function İtem() {
                           loading="lazy"
                           className="rounded-2xl"
                           src={item.imgName}
-                          alt="img"
+                          alt={item.title}
                           fill
                         ></Image>
                       </div>
