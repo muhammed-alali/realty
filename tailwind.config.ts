@@ -24,13 +24,9 @@ const config: Config = withMT({
         Desc: "#5c6368",
         BorderColor: "[rgb(231,232,233)]",
       },
-      filters: {
-        filter:
-          "brightness(100%)_contrast(100%)_saturate(0%)_blur(0px)_hue-rotate(0deg)",
-      },
+
       boxShadow: {
-        aboutShadow: "0px 5px 25px rgba(0,0,0,0.10)",
-        solutionsShadow: "0px 30px 60px 0px rgba(0, 0, 0, 0.1019607843)",
+        cardShadow: "0 0 15px rgba(0, 0, 0, 0.15)",
       },
       container: {
         center: true, // يجعل الكونتينر في المنتصف
