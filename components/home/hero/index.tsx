@@ -7,8 +7,8 @@ import Image from "next/image";
 import "swiper/css";
 import "swiper/css/navigation";
 import { Autoplay, Navigation } from "swiper/modules";
-import { MansetItem } from "./data";
 
+import { MansetItem } from "./data";
 import ButtonCom from "@/components/btn";
 
 export default async function Hero() {

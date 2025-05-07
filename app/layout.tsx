@@ -1,11 +1,34 @@
 import type { Metadata } from "next";
-import { Cairo, Inter } from "next/font/google";
+import { Inter } from "next/font/google";
 import "./globals.css";
+import { Header } from "@/components/layout/Navbar/navbar";
+import Footer from "@/components/layout/Footer/footer";
 
-const cairo = Cairo({ subsets: ["latin"] });
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Projects Gallery",
+  title: "Home Lengo",
+  description:
+    "مكتب متخصص في بيع، شراء، وتأجير البيوت السكنية والتجارية بأفضل الأسعار.",
+  keywords: [
+    "بيوت",
+    "بيع بيوت",
+    "شراء بيوت",
+    "تأجير بيوت",
+    "بيوت سكنية",
+    "عقار",
+    "مكتب عقاري",
+    "بيع عقارات",
+    "شراء عقارات",
+    "تأجير عقارات",
+    "فلل للبيع",
+    "شقق للإيجار",
+    "عقارات تجارية",
+    "عقارات سكنية",
+  ],
+  icons: {
+    icon: "./photo/favicon.ico",
+  },
 };
 
 export default function RootLayout({
@@ -14,8 +37,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="ar" dir="rtl">
-      <body className={cairo.className}>{children}</body>
+    <html lang="en">
+      <body className={inter.className}>
+        <Header />
+        {children}
+        <Footer />
+      </body>
     </html>
   );
 }

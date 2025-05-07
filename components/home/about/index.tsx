@@ -1,11 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
-import { AboutItem } from "./data";
+
 import HeroBtn from "@/components/btn";
 import Button from "@/components/btn";
 import ButtonCom from "@/components/btn";
 import TitleHead from "@/components/titleHead";
 import { FaHandshake, FaMedal } from "react-icons/fa";
+import { AboutItem } from "./data";
 export default function About() {
   return (
     <section className="md:container xs:mx-4  mx-auto xs:py-[50px]  py-[100px] md:px-4   ">
